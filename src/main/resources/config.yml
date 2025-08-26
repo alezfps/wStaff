@@ -1,0 +1,47 @@
+detection-method:
+  # false = permission ; true = group names
+  use-groups: true
+
+vanish:
+  # hide staff in vanish from the list
+  hide-from-list: true
+
+staff-roles:
+  admin:
+    group-name: "amministratore"
+    permission: "staff.amministratore"
+    priority: 5
+    color: "RED"
+    display-name: "Amministratore"
+
+  developer:
+    group-name: "developer"
+    permission: "staff.developer"
+    priority: 4
+    color: "AQUA"
+    display-name: "Developer"
+
+  sr-mod:
+    group-name: "sr-moderatore"
+    permission: "staff.sr-moderatore"
+    priority: 3
+    color: "GREEN"
+    display-name: "Sr Moderatore"
+
+  moderator:
+    group-name: "moderatore"
+    permission: "staff.moderatore"
+    priority: 2
+    color: "YELLOW"
+    display-name: "Moderatore"
+
+  helper:
+    group-name: "helper"
+    permission: "staff.helper"
+    priority: 1
+    color: "BLUE"
+    display-name: "Helper"
+
+messages:
+  header: "&6Lista dello staff online:"
+  no-staff: "&7Nessun membro dello staff è attualmente online."

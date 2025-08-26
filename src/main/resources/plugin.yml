@@ -1,0 +1,8 @@
+name: wStaff
+version: '${project.version}'
+main: lol.alez.wstaff.WStaff
+api-version: '1.16'
+softdepend:
+  - LuckPerms
+commands:
+  sl:
